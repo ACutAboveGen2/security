@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<title>SECURITY REDIRECT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset=UTF-8">
+		<style>
+			body {
+				margin: 0;
+			}
+			header {
+				margin: 0 auto;
+				padding: 5px 20px 5px 20px;
+				background: #e8e8e8;
+			}
+			.head-logo {
+				width: 100%;
+				text-align: center;
+			}
+            		.h {
+                		padding-left: 30px;
+                		font-family: 'Raleway', sans-serif;
+                		color:white;
+				text-align: center;
+            		}
+		</style>
+		<meta http-equiv="Refresh" content="10; url='http://184.167.247.197:9090/'" />
+	</head>
+	<body style="background-color: f8f8f8; ">
+		<header>
+			<div class="head-logo">
+				<a href="https://acutabovegj.com"><img height="75px" src="A Cut Above Icon.png" alt="A Cut Above Landscaping"></a>
+			</div>
+		</header>
+		<main>
+<p>You will be redirected to SECURITY in <span id="countdowntimer">10 </span> seconds.</p>
+<script type="text/javascript">
+    var timeleft = 10;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
+		</main>
+	</body>
+</html>
